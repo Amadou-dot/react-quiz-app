@@ -1,0 +1,185 @@
+{
+    "response_code": 0,
+    "results": [
+      {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Science: Computers",
+        "question": "What five letter word is the motto of the IBM Computer company?",
+        "correct_answer": "Think",
+        "incorrect_answers": [
+          "Click",
+          "Logic",
+          "Pixel"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Science: Computers",
+        "question": "What does LTS stand for in the software market?",
+        "correct_answer": "Long Term Support",
+        "incorrect_answers": [
+          "Long Taco Service",
+          "Ludicrous Transfer Speed",
+          "Ludicrous Turbo Speed"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Science: Computers",
+        "question": "Which of these is the name for the failed key escrow device introduced by the National Security Agency in 1993?",
+        "correct_answer": "Clipper Chip",
+        "incorrect_answers": [
+          "Enigma Machine",
+          "Skipjack",
+          "Nautilus"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Science: Computers",
+        "question": "Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?",
+        "correct_answer": "Apple",
+        "incorrect_answers": [
+          "Microsoft",
+          "Atari",
+          "Commodore"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Science: Computers",
+        "question": "The series of the Intel HD graphics generation succeeding that of the 5000 and 6000 series (Broadwell) is called:",
+        "correct_answer": "HD Graphics 500",
+        "incorrect_answers": [
+          "HD Graphics 700 ",
+          "HD Graphics 600",
+          "HD Graphics 7000"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Science: Computers",
+        "question": "What is known as &quot;the brain&quot; of the Computer?",
+        "correct_answer": "Central Processing Unit",
+        "incorrect_answers": [
+          "Motherboard",
+          "Graphics Processing Unit",
+          "Keyboard"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Science: Computers",
+        "question": "What does CPU stand for?",
+        "correct_answer": "Central Processing Unit",
+        "incorrect_answers": [
+          "Central Process Unit",
+          "Computer Personal Unit",
+          "Central Processor Unit"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Science: Computers",
+        "question": "In &quot;Hexadecimal&quot;, what color would be displayed from the color code? &quot;#00FF00&quot;?",
+        "correct_answer": "Green",
+        "incorrect_answers": [
+          "Red",
+          "Blue",
+          "Yellow"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Science: Computers",
+        "question": "Lenovo acquired IBM&#039;s personal computer division, including the ThinkPad line of laptops and tablets, in what year?",
+        "correct_answer": "2005",
+        "incorrect_answers": [
+          "1999",
+          "2002",
+          "2008"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Science: Computers",
+        "question": "What was the first Android version specifically optimized for tablets?",
+        "correct_answer": "Honeycomb",
+        "incorrect_answers": [
+          "Eclair",
+          "Froyo",
+          "Marshmellow"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Science: Computers",
+        "question": "In the programming language &quot;Python&quot;, which of these statements would display the string &quot;Hello World&quot; correctly?",
+        "correct_answer": "print(&quot;Hello World&quot;)",
+        "incorrect_answers": [
+          "console.log(&quot;Hello World&quot;)",
+          "echo &quot;Hello World&quot;",
+          "printf(&quot;Hello World&quot;)"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Science: Computers",
+        "question": "How many bytes are in a single Kibibyte?",
+        "correct_answer": "1024",
+        "incorrect_answers": [
+          "2400",
+          "1000",
+          "1240"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Science: Computers",
+        "question": "What is the most preferred image format used for logos in the Wikimedia database?",
+        "correct_answer": ".svg",
+        "incorrect_answers": [
+          ".png",
+          ".jpeg",
+          ".gif"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Science: Computers",
+        "question": "Laserjet and inkjet printers are both examples of what type of printer?",
+        "correct_answer": "Non-impact printer",
+        "incorrect_answers": [
+          "Impact printer",
+          "Daisywheel printer",
+          "Dot matrix printer"
+        ]
+      },
+      {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Science: Computers",
+        "question": "What type of sound chip does the Super Nintendo Entertainment System (SNES) have?",
+        "correct_answer": "ADPCM Sampler",
+        "incorrect_answers": [
+          "FM Synthesizer",
+          "Programmable Sound Generator (PSG)",
+          "PCM Sampler"
+        ]
+      }
+    ]
+  }
