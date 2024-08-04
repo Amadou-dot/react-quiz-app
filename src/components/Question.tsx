@@ -1,16 +1,10 @@
-import React from 'react';
-import { IAction } from '../types/IAction';
 import { IQuestion } from '../types/QResponse';
 import Options from './Options';
-export default function Question({
-  question,
-  dispatch,
-  answer,
-}: {
-  question: IQuestion;
-  dispatch: React.Dispatch<IAction>;
-  answer: string | null;
-}) {
+import { useQuestions } from '../context/QuestionsContext';
+export default function Question() {
+  const {state, dispatch} = useQuestions();
+  const {questions, currentQuestion, answer} = state;
+  const question: IQuestion = questions[currentQuestion];
   return (
     <div>
       <h4>{question.question}</h4>

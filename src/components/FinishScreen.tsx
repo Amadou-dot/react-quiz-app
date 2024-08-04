@@ -1,12 +1,9 @@
-export default function FinishScreen({
-  points,
-  possiblePoints,
-  highscore,
-}: {
-  points: number;
-  possiblePoints: number;
-  highscore: number;
-}) {
+import { useQuestions } from "../context/QuestionsContext";
+
+export default function FinishScreen() {
+  const {state} = useQuestions();
+  const {highscore, points} = state;
+  const possiblePoints = state.questions.length;
   const percentage = (points / possiblePoints) * 100;
   let feedback = '';
   if (percentage === 100) feedback = 'Perfect!';

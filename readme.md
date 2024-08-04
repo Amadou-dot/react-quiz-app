@@ -28,3 +28,11 @@ This is a simple quiz application built using React. It allows users to test the
 
 Contributions are welcome! If you have any suggestions or improvements, please open an issue or submit a pull request.
 
+## Planned features
+Allow user to choose number of questions
+Allow user to filter difficulty of questions
+Allow user to filter category of questions
+Allow user to choose time per question
+Save highscore to {somewhere}
+Allow user to go back to previous question
+Add more questions

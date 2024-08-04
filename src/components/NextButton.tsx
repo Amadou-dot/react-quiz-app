@@ -1,18 +1,8 @@
-import { IAction } from '../types/IAction';
-
-export default function NextButton({
-  dispatch,
-  answer,
-  currentQuestion,
-  numQuestions,
-  restart,
-}: {
-  dispatch: React.Dispatch<IAction>;
-  restart?: boolean;
-  answer?: string | null;
-  currentQuestion?: number;
-  numQuestions?: number;
-}) {
+import { useQuestions } from '../context/QuestionsContext';
+export default function NextButton({restart}: {restart?: boolean;}) {
+  const {state, dispatch} = useQuestions();
+  const {currentQuestion, answer} = state;
+  const numQuestions = state.questions.length;
   if (restart)
     return (
       <button

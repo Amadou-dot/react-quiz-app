@@ -1,12 +1,8 @@
-import { IAction } from "../types/IAction";
+import { useQuestions } from "../context/QuestionsContext";
 
-export default function StartScreen({
-  numQuestions,
-  dispatch,
-}: {
-  numQuestions: number;
-  dispatch: React.Dispatch<IAction>;
-}) {
+export default function StartScreen() {
+  const {state, dispatch} = useQuestions();
+  const numQuestions = state.questions.length;
   return (
     <div className='start'>
       <h2>Welcome to the react quiz!</h2>

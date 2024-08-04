@@ -1,14 +1,9 @@
-export default function Progress({
-  currentQuestion,
-  numQuestions,
-  points,
-  answer,
-}: {
-  currentQuestion: number;
-  numQuestions: number;
-  points: number;
-  answer: string | null;
-}) {
+import { useQuestions } from "../context/QuestionsContext";
+
+export default function Progress() {
+  const {state} = useQuestions();
+  const {currentQuestion, points, answer} = state;
+  const numQuestions = state.questions.length;
   return (
     <header className='progress'>
       <progress
