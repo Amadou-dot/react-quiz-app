@@ -15,6 +15,7 @@ export default function Options({
     ...question.incorrect_answers,
     question.correct_answer,
   ];
+  questionOptions.sort(() => Math.random() - 0.5);
   return (
     <div className='options'>
       {questionOptions.map(option => (
